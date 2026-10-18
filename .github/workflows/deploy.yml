@@ -29,11 +29,14 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Upgrade npm
+        run: npm install -g npm@11
+
       - name: Install dependencies
         run: npm install
 
       - name: Build
-        run: npm run build
+        run: npm run build -- --base=/Medical-Bank-Web-/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
