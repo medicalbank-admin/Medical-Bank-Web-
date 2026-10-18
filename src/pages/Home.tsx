@@ -37,7 +37,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center">
           <div className="relative w-72 h-[500px] border-[8px] border-gray-800 rounded-[2.5rem] bg-gray-800 shadow-2xl">
-            <img src="/app-screenshot.png" className="w-full h-full rounded-[2rem] object-cover" alt="App Screenshot" />
+            <img src="/Screenshot_2026-10-19-01-35-30-97_da0576dcbe43abb4cd4cd785445e48e8.jpg" className="w-full h-full rounded-[2rem] object-cover" alt="App Screenshot" />
           </div>
         </div>
       </motion.section>
