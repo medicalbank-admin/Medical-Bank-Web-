@@ -1,0 +1,6 @@
+{
+  "name": "Medical Bank",
+  "description": "The ultimate question bank and exam simulator for MBBS students and licensing candidates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
